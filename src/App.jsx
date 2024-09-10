@@ -75,9 +75,9 @@ querySnapshot.forEach((doc) => {
 }
 return datahandler;
 }, [messaging])
-let chat_data = messaging.map((chat) => {
+let chat_data = messaging.map((chat, i) => {
    return (
-     <Message text={chat} user='me'/>
+     <Message key={i} text={chat} user='me'/>
    )
 })
 useEffect(() => {

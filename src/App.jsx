@@ -120,9 +120,11 @@ const App = () => {
         <div className="chat w-full h-screen bg-slate-300 flex justify-center items-center">
           <div className="box w-[480px] rounded p-4 h-[90vh] bg-white relative">
             <div className="chat-head flex mb-2 items-center justify-between">
-              <h2 className="text-3xl text-center font-bold">
+              <h2 className="text-3xl text-center font-bold my-2">
                 Chat <span className="text-green-800">.pk</span>
               </h2>
+              <h4 className='absolute text-sm -bottom-6 left-36 text-center'>Made by shehryar Ahmed</h4>
+
               <BsThreeDotsVertical onClick={() => setLogoutBtn(!logoutbtn)} className="cursor-pointer" />
               {logoutbtn ? (
                 <button onClick={pageoffhandler} className="absolute top-12 right-10 bg-gray-300 py-1 rounded px-2">
@@ -140,7 +142,7 @@ const App = () => {
                 <input
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="border py-1 w-[75%] rounded px-2"
+                  className="border py-1 w-[70%] rounded px-2"
                   type="text"
                   placeholder="Enter Message to send..."
                 />

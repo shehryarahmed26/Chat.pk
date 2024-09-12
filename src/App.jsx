@@ -4,7 +4,7 @@ import { BsThreeDotsVertical } from 'react-icons/bs';
 import { FaArrowDown } from 'react-icons/fa6';
 import './App.css';
 import { getAuth, signInWithPopup, serverTimestamp, query, orderBy, onSnapshot, GoogleAuthProvider, signOut, onAuthStateChanged, collection, addDoc, db } from './Firebase';
-import Message from './assets/components/message';
+import Message from './assets/components/Message';
 
 const auth = getAuth();
 

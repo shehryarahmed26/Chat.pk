@@ -1,6 +1,6 @@
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
   import { GoogleAuthProvider, getAuth, signInWithPopup, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-auth.js";
-  import { getFirestore, collection, addDoc, getDocs  } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js";
+  import { getFirestore, collection, addDoc, getDocs, serverTimestamp , onSnapshot, query, orderBy  } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js";
 
 
   // Your web app's Firebase configuration
@@ -28,5 +28,9 @@ export {
     signOut,
     db,
     collection, addDoc,
-    getDocs
+    getDocs,
+    serverTimestamp ,
+    onSnapshot, 
+    query,
+    orderBy
   }

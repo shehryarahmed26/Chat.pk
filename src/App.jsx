@@ -112,7 +112,7 @@ const App = () => {
           <p>Chat world wide and make friends online.</p>
           <FaArrowDown className="text-4xl text-gray-800 mt-10 mb-5" />
           <button onClick={provider} className="flex items-center p-1 px-5 bg-white rounded hover:shadow-xl">
-            <img className="w-10" src="../public/G.png" alt="" />
+            <img className="w-10" src="../public/Images/G.png" alt="" />
             Continue with Google
           </button>
         </div>

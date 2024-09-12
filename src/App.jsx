@@ -123,7 +123,7 @@ const App = () => {
               <h2 className="text-3xl text-center font-bold my-2">
                 Chat <span className="text-green-800">.pk</span>
               </h2>
-              <h4 className='absolute text-sm -bottom-6 left-36 text-center'>Made by shehryar Ahmed</h4>
+              <h4 className='absolute text-gray-700 text-xs -bottom-6 left-4 text-center'>Copyright © 2024 Chat.pk  All Rights Reserved | Made By Shehryar Ahmed</h4>
 
               <BsThreeDotsVertical onClick={() => setLogoutBtn(!logoutbtn)} className="cursor-pointer" />
               {logoutbtn ? (
@@ -138,7 +138,7 @@ const App = () => {
             <div className="chats flex flex-col h-[77vh] justify-end overflow-y-auto">
               <div className="chatting overflow-y-auto" ref={chatContainerRef}>{chat_data} </div>
               
-              <div className="chat-area w-full mt-2 bottom-4">
+              <div className="chat-area w-full my-2 bottom-4">
                 <input
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}

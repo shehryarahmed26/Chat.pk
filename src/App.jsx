@@ -15,6 +15,7 @@ const App = () => {
   const [chatpage, setChatPage] = useState(true);
   const [message, setMessage] = useState('');
   const [user, setUser] = useState('');
+  
 
   // Ref for chat container
   const chatContainerRef = useRef(null);
@@ -48,7 +49,9 @@ const App = () => {
       });
   };
 
-  let submithandler = async () => {
+  let 
+  
+  submithandler = async () => {
     if (message === '') {
       alert('Please Write Something');
     } else {

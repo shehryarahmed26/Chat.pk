@@ -126,7 +126,7 @@ const App = () => {
               <h2 className="text-3xl text-center font-bold my-2">
                 Chat <span className="text-green-800">.pk</span>
               </h2>
-              <h4 className='absolute text-gray-700 text-xs -bottom-6 left-4 text-center'>Copyright © 2024 Chat.pk  All Rights Reserved | Made By Shehryar Ahmed</h4>
+              <h4 className='absolute text-gray-700 text-xs -bottom-10 left-4 text-center'>Copyright © 2024 Chat.pk  All Rights Reserved | Made By Shehryar Ahmed</h4>
 
               <BsThreeDotsVertical onClick={() => setLogoutBtn(!logoutbtn)} className="cursor-pointer" />
               {logoutbtn ? (
